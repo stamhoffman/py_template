@@ -27,3 +27,24 @@ foo_5(1)
 foo_6 = lambda x, y: x + y
 
 print("5 + 6 = ",foo_6(5,6))
+
+a = 0
+
+while a < 5 :
+    print(a)
+    a = a + 1
+
+b = 0
+c = 5
+
+if b :
+    b = 0
+elif c:
+    b = 7
+
+array.
+
+for a in
+
+
+

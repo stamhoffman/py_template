@@ -2,11 +2,11 @@
 <project version="4">
   <component name="BookmarkManager">
     <bookmark url="file://$PROJECT_DIR$/server.py" line="6" />
+    <bookmark url="file://$PROJECT_DIR$/parsline.py" line="39" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2bda8e36-d277-4a78-ab50-d90ab2e6915a" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/parsline.py" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/parsline.py" afterPath="$PROJECT_DIR$/parsline.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -30,8 +30,8 @@
       <file leaf-file-name="parsline.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/parsline.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="432">
-              <caret line="24" column="8" lean-forward="true" selection-start-line="24" selection-start-column="8" selection-end-line="24" selection-end-column="8" />
+            <state relative-caret-position="273">
+              <caret line="44" column="6" lean-forward="false" selection-start-line="44" selection-start-column="6" selection-end-line="44" selection-end-column="6" />
               <folding />
             </state>
           </provider>
@@ -69,7 +69,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="1930" />
     <option name="y" value="27" />
     <option name="width" value="1346" />
@@ -201,7 +201,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1930" y="27" width="1366" height="743" extended-state="7" />
+    <frame x="1930" y="27" width="1366" height="743" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.111273795" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -318,8 +318,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/parsline.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="24" column="8" lean-forward="true" selection-start-line="24" selection-start-column="8" selection-end-line="24" selection-end-column="8" />
+        <state relative-caret-position="273">
+          <caret line="44" column="6" lean-forward="false" selection-start-line="44" selection-start-column="6" selection-end-line="44" selection-end-column="6" />
           <folding />
         </state>
       </provider>
