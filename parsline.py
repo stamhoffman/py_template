@@ -1,22 +1,24 @@
 import openpyxl
+import struct
 
 from tkinter import *
 from tkinter.filedialog import *
+
 popravki = [[0] * 38 for i in range(12)]
 from  openpyxl  import  load_workbook
-file_out = open('Fab_cable_correction', 'w')
+
+file_out = open('Fab_cable_correction', 'wb')
 
 def write_file():
     for i in range(12):
         for j in range(38):
-            file_out.write(str(popravki[i][j]) + ' ')
-        file_out.write('\n')
+            out = struct.pack('>h', popravki[i][j])
+            file_out.write(out)
 
 def out_console():
     for i in range(12):
         for j in range(38):
             text_pop.insert(i.j,str(popravki[i][j]))
-        text_pop.insert(i.j,'\n')
 
 def open_click(event):
     text_pop.delete(0.0,END)
@@ -27,12 +29,14 @@ def open_click(event):
         for j in range(38):
             row = sheet.cell(row=(i + 1), column=(j + 1)).value
             popravki[i][j] = row
-    text_pop.insert(0.0,popravki)
-
+            text_pop.insert(0.0, popravki[i][j])
+            text_pop.insert(0.0, ' ')
+        text_pop.insert(0.0, '\n')
 
 def click_write_file(event):
     write_file()
-    text_pop.insert(600.600, 'OK WRITE')
+    text_pop.insert(0.0, '\n')
+    text_pop.insert(0.200, 'OK WRITE')
     file_out.close()
 
 def click_exit(event):
